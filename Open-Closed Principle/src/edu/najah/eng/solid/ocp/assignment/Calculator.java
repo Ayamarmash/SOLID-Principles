@@ -2,6 +2,8 @@ package edu.najah.eng.solid.ocp.assignment;
 
 import java.util.ArrayList;
 
+import edu.najah.eng.solid.ocp.assignment.intrf.IOperation;
+
 public class Calculator {
 
     private ArrayList<Integer> numbers = null;
@@ -26,9 +28,9 @@ public class Calculator {
         numbers.remove(index);
     }
 
-    public int getOperationResult(Operation operation){
-        return -1;
+    public int getOperationResult(Operation operation) throws Exception{
+        IOperation op = OperationGenerator.getInstance(operation);
+        if(op != null) return op.Execute(numbers);
+        throw new Exception("Invalid Operation, try again.");
     }
 }
-////// this one should be NULL then if != NULL we wil go to switch, other wise return invalid -- >IOP addition = new Add();
-///// addition.execute(List<Integer> numbers);
