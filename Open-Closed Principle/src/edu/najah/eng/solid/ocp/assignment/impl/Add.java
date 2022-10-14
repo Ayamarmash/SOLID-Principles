@@ -1,8 +1,7 @@
-package edu.najah.eng.solid.ocp.assignment.edu.najah.eng.impl;
-
+package edu.najah.eng.solid.ocp.assignment.impl;
 import java.util.List;
 
-import edu.najah.eng.solid.ocp.assignment.edu.najah.eng.intrf.IOperation;
+import edu.najah.eng.solid.ocp.assignment.intrf.IOperation;
 
 public class Add implements IOperation{
 

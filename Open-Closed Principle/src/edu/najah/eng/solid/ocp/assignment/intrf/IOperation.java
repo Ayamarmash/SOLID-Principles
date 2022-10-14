@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.ocp.assignment.edu.najah.eng.intrf;
+package edu.najah.eng.solid.ocp.assignment.intrf;
 
 import java.util.List;
 

@@ -1,6 +1,7 @@
-package edu.najah.eng.solid.ocp.assignment.edu.najah.eng.impl;
-import edu.najah.eng.solid.ocp.assignment.edu.najah.eng.intrf.IOperation;
+package edu.najah.eng.solid.ocp.assignment.impl;
 import java.util.List;
+
+import edu.najah.eng.solid.ocp.assignment.intrf.IOperation;
 
 
 public class Min implements IOperation{

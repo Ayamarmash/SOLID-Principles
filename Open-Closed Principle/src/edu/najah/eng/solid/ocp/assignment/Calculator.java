@@ -1,4 +1,4 @@
-package solid.ocp.assignment;
+package edu.najah.eng.solid.ocp.assignment;
 
 import java.util.ArrayList;
 
