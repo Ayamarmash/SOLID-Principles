@@ -1,5 +1,4 @@
-package edu.najah.eng.solid.ocp.assignment;
-
+package solid.ocp.assignment;
 public enum Operation {
     Addition,Multiplication,Count, Max, Min
 }

@@ -1,4 +1,4 @@
-package edu.najah.eng.solid.ocp.assignment;
+package solid.ocp.assignment;
 
 public class App {
 
