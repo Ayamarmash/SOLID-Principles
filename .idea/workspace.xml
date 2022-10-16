@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add more examples">
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/MyChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/MyChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/CharConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/DoubleConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good/conversion/StringConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/OperationGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/bad/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Operation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +40,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interface Segregation Principle/src/edu/najah/eng/solid/is/example/good" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="edu.najah.eng.solid.lsp.hw" />
@@ -69,7 +63,7 @@
       <recent name="edu.najah.eng.solid.ocp.exercise.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (2)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.najah.eng.solid.lsp.example3.App" />
       <module name="Liskov Substitution Principle" />
@@ -150,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>

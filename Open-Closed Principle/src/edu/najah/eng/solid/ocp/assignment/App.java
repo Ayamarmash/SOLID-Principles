@@ -2,7 +2,7 @@ package edu.najah.eng.solid.ocp.assignment;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
 
         Calculator calculator = new Calculator();
@@ -18,5 +18,6 @@ public class App {
         System.out.println("Count " + calculator.getOperationResult(Operation.Count));
         System.out.println("Max " + calculator.getOperationResult(Operation.Max));
         System.out.println("Min " + calculator.getOperationResult(Operation.Min));
+        System.out.println("Min " + calculator.getOperationResult(Operation.thisOneShouldThrowException));
     }
 }
