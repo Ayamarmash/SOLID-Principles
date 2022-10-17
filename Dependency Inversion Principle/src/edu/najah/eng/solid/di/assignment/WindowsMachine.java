@@ -2,34 +2,24 @@ package edu.najah.eng.solid.di.assignment;
 
 import edu.najah.eng.solid.di.assignment.devices.Keyboard;
 import edu.najah.eng.solid.di.assignment.devices.Monitor;
+import edu.najah.eng.solid.di.assignment.devices.Switchable;
 
 public class WindowsMachine {
 
-    public final Keyboard keyboard;
-    public final Monitor monitor;
+    public final Switchable keyboard;
+    public final Switchable monitor;
 
     public WindowsMachine(){
-        monitor = new Monitor();  //instance of monitor class
-        keyboard = new Keyboard(); //instance of keyboard class
+        monitor = new Monitor();  
+        keyboard = new Keyboard(); 
     }
 
-
-    public void changeKeyboardStatus(boolean status){
+    public void changeDeviceStatus(Switchable Device, boolean status){
         if (status){
-            keyboard.powerOn();
+            Device.powerOn();
         } else {
-            keyboard.powerOff();
+            Device.powerOff();
         }
     }
-
-    public void changeMonitorStatus(boolean status){
-        if (status){
-            monitor.turnOn();
-        } else {
-            monitor.turnOff();
-        }
-    }
-
-
 
 }

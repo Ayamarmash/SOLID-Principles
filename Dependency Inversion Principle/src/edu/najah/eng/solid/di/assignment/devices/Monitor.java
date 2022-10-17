@@ -1,13 +1,12 @@
 package edu.najah.eng.solid.di.assignment.devices;
 
-public class Monitor {
+public class Monitor implements Switchable{
 
-    public void turnOn(){
+    public void powerOn(){
         System.out.println("Turn on " + this.getClass().getName());
     }
 
-    public void turnOff(){
+    public void powerOff(){
         System.out.println("Turn off " + this.getClass().getName());
     }
-
 }
