@@ -4,7 +4,7 @@ public class LimitedCustomer extends Customer{
 
     private static final int MAX_ALLOWED_OFFER = 3;
 
-    public Boolean addOffers(Offer offer) {
+    public boolean addOffers(Offer offer) {
         if (isReachedMaxAllowedOffers()){
             return false;
         }

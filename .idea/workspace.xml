@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add more examples">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/ICustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/LimitedCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liskov Substitution Principle/src/edu/najah/eng/solid/lsp/assignment/LimitedCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
