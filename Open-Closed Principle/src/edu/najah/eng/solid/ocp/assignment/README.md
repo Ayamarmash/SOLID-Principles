@@ -15,3 +15,4 @@ The Calculator class there is violation of the Open closed principle, it's not c
  
  4- each operation will have it's own class with it's own implementation for Execute method.
 
+![Open Close Principle drawio](https://user-images.githubusercontent.com/58006991/196531138-5c58bd19-e480-40f3-a277-b4d8d09eadc8.png)
