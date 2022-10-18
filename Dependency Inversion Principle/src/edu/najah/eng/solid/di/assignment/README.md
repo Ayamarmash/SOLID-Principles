@@ -5,7 +5,7 @@ a new change_DeviceName_Status method.
 
 
 
-### How to resolve this violation?
+### How to resolve this violation ?
 To create new interface (Switchable), where the all switchable devices will implement this interface (Such as keyboard and monitor), and create a new method called
 changeStatus that accept any switchable device and change it's status.
 
