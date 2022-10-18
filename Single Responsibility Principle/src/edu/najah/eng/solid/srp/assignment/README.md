@@ -8,7 +8,7 @@ The Invoice class have methods that is not related to each other, and not relate
 1- The class (Invoice) is supposed to be only for creating Invoice tickets.
 
 
-3- we should have class for actions on invoices (InvoiceHelper).
+3- we should have class for actions on invoice (InvoiceHelper).
 
 
 2- we should have an interface (to accept any type of databases) for Databases, for making connection, add and delete records (IDatabase).
