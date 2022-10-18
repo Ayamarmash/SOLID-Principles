@@ -1,5 +1,5 @@
 ### How it's violating the Open Closed Principle?
-The Calculator class there is violation of the Open closed principle, it will be hard if we want to add new operation because there will be lots changes
+The Calculator class there is violation of the Open closed principle, there will be modifications on the code if we want to add new operations.
 
 
 
@@ -16,3 +16,4 @@ without instantiation).
  
  
  4- each operation will have it's own class with it's own implementation for Execute method.
+
