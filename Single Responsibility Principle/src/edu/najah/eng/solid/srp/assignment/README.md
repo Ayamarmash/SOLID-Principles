@@ -2,6 +2,7 @@
 The Invoice class have methods that is not related to each other, and not related to the class itselt, for example sendEmail method.
 
 
+
 ### How to resolve this violation?
 1- The class (Invoice) is supposed to be only for creating Invoice tickets.
 
