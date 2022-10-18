@@ -2,7 +2,7 @@ package edu.najah.eng.solid.lsp.assignment;
 
 import java.util.ArrayList;
 
-public class Customer {
+public class Customer implements ICustomer{
     protected ArrayList<Offer> offers = null;
 
     public Customer(){
@@ -17,7 +17,8 @@ public class Customer {
         return tmpOffers;
     }
 
-    public void addOffers(Offer offer) {
+    public Boolean addOffers(Offer offer) {
         this.offers.add(offer);
+        return true;
     }
 }
