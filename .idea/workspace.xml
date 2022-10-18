@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc844114-e8ad-4a80-851f-6bd61d0784ab" name="Changes" comment="Add more examples">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/OperationGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Impl/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IMailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Intrf/IMailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/InvoiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Single Responsibility Principle/src/edu/najah/eng/solid/srp/assignment/InvoiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Open-Closed Principle/src/edu/najah/eng/solid/ocp/assignment/Operation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "OverrideImplement.generate.javadoc": "true"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,7 +63,7 @@
       <recent name="edu.najah.eng.solid.ocp.exercise.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (2)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.najah.eng.solid.lsp.example3.App" />
       <module name="Liskov Substitution Principle" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
