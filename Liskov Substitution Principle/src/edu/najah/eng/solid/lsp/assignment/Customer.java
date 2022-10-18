@@ -17,7 +17,8 @@ public class Customer {
         return tmpOffers;
     }
 
-    public void addOffers(Offer offer) {
+    public boolean addOffers(Offer offer) {
         this.offers.add(offer);
+        return true;
     }
 }
