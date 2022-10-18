@@ -1,4 +1,4 @@
-#Interface Segregation Principle
+# Interface Segregation Principle
 ### How it's violating the Open Closed Principle?
 Both Eagle and penguin classes have to implement methods they will never use, Swim in Eagle, and Fly in penguin.
 
