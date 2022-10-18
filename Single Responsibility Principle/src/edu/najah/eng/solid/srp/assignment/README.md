@@ -16,4 +16,4 @@ The Invoice class have methods that is not related to each other, and not relate
 
 5- we should have a class for creating the new Email and to check if it's validate.
 
-![Single Responsibility Principle drawio](https://user-images.githubusercontent.com/58006991/196505769-517b2fcf-bb37-4c2c-b800-648b50e50b5a.png)
+![Single Responsibility Principle drawio (1)](https://user-images.githubusercontent.com/58006991/196507779-1f45f313-8bf9-49d4-83f6-d8f96cb0bc3d.png)
