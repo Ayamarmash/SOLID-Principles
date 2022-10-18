@@ -1,5 +1,5 @@
 ### How it's violating the Open Closed Principle?
-The Calculator class there is violation of the Open closed principle, there will be modifications on the code if we want to add new operations.
+The Calculator class there is violation of the Open closed principle, there will be modifications on the code if we want to add new operations or edit any operation.
 
 
 
