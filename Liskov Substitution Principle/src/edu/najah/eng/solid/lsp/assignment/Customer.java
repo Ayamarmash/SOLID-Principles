@@ -2,7 +2,7 @@ package edu.najah.eng.solid.lsp.assignment;
 
 import java.util.ArrayList;
 
-public class Customer implements ICustomer{
+public class Customer {
     protected ArrayList<Offer> offers = null;
 
     public Customer(){
